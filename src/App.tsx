@@ -4,9 +4,11 @@ import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import Nav from './components/include/Nav';
+import Home from './components/ui/Home';
+import TabMenu from './components/ui/TabMenu';
+
 import Main from './pages/main/Main';
-import Sub from './pages/sub/Sub';
-import NotFound from './pages/error/NotFound';
 
 import './assets/css/style.scss';
 
@@ -14,7 +16,10 @@ const Layout = () => {
   return (
     <>
       <Header/>
-      <Outlet/>
+      <div className="container">
+        <Nav/>
+        <Outlet/>
+      </div>
       <Footer/>
     </>
   );
@@ -28,10 +33,9 @@ const App = () => {
           {/* 공통 레이아웃 포함 */}
           <Route element={<Layout />}>
             <Route path="/" element={<Main />}></Route>
-            <Route path="/sub" element={<Sub />}></Route>
+            <Route path="/home" element={<Home />}></Route>
+            <Route path="/TabMenu" element={<TabMenu />}></Route>
           </Route>
-          {/* 공통 레이아웃 제외 */}
-          {/* <Route path="*" element={<NotFound />}></Route> */}
         </Routes>
       </BrowserRouter>
     </div>

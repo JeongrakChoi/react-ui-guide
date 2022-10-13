@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 
 import $ from 'jquery';
 
+import Nav from '../../components/include/Nav';
+
 const Main = () => {
   const navigate = useNavigate();
 
@@ -13,9 +15,8 @@ const Main = () => {
   // }, []);
 
   return (
-    <div>
-      메인 페이지
-      <div onClick={()=>navigate("/sub/")}>서브페이지 이동</div>
+    <div className="uiBox">
+      @ React UI GUIDE
     </div>
   );
 };
