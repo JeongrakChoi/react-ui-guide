@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -28,7 +28,7 @@ const Layout = () => {
 const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           {/* 공통 레이아웃 포함 */}
           <Route element={<Layout />}>
