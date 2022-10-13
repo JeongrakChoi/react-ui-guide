@@ -8,17 +8,14 @@ import Main from './pages/main/Main';
 import Sub from './pages/sub/Sub';
 import NotFound from './pages/error/NotFound';
 
-import './assets/css/variables.scss';
-import './assets/css/global.scss';
-
-
+import './assets/css/style.scss';
 
 const Layout = () => {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer />
+      <Header/>
+      <Outlet/>
+      <Footer/>
     </>
   );
 };
