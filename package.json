@@ -48,16 +48,5 @@
     "@types/jquery": "^3.5.14",
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://jeongrakchoi.github.io/react-ui-guide/",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JeongrakChoi/react-ui-guide.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JeongrakChoi/react-ui-guide/issues"
-  }
+  "homepage":"https://jeongrakchoi.github.io/react-ui-guide/"
 }
