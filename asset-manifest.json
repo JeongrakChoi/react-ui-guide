@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-ui-guide/static/css/main.4b1d9f43.css",
+    "main.js": "/react-ui-guide/static/js/main.4c537b3d.js",
+    "index.html": "/react-ui-guide/index.html",
+    "main.4b1d9f43.css.map": "/react-ui-guide/static/css/main.4b1d9f43.css.map",
+    "main.4c537b3d.js.map": "/react-ui-guide/static/js/main.4c537b3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b1d9f43.css",
+    "static/js/main.4c537b3d.js"
+  ]
+}
