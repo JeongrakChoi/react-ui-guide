@@ -1,5 +1,5 @@
 {
-  "name": "react-app-template",
+  "name": "react-ui-guide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,5 +48,16 @@
     "@types/jquery": "^3.5.14",
     "gh-pages": "^4.0.0"
   },
-  "homepage":"https://jeongrakchoi.github.io/react-app-template/"
+  "homepage": "https://jeongrakchoi.github.io/react-ui-guide/",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeongrakChoi/react-ui-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeongrakChoi/react-ui-guide/issues"
+  }
 }
