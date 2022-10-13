@@ -34,7 +34,7 @@ const App = () => {
             <Route path="/sub" element={<Sub />}></Route>
           </Route>
           {/* 공통 레이아웃 제외 */}
-          <Route path="*" element={<NotFound />}></Route>
+          {/* <Route path="*" element={<NotFound />}></Route> */}
         </Routes>
       </BrowserRouter>
     </div>
