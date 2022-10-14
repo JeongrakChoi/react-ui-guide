@@ -8,8 +8,9 @@ const Nav = () => {
     return (
         <nav className="nav">
             <ul>
-                <li onClick={()=>navigate("/home")}>Home</li>
-                <li onClick={()=>navigate("/TabMenu")}>Tab Menu</li>
+                <li onClick={()=>navigate("/")}>Home</li>
+                <li onClick={()=>navigate("/ToggleClass")}>Toggle Class</li>
+                <li onClick={()=>navigate("/HoverClass")}>Hover Class</li>
             </ul>     
         </nav>
     )

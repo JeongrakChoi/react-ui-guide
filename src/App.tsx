@@ -5,8 +5,9 @@ import { HashRouter, BrowserRouter, Routes, Route, Outlet } from 'react-router-d
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Nav from './components/include/Nav';
-import Home from './components/ui/Home';
-import TabMenu from './components/ui/TabMenu';
+
+import ToggleClass from './components/ui/ToggleClass';
+import HoverClass from './components/ui/HoverClass';
 
 import Main from './pages/main/Main';
 
@@ -33,8 +34,8 @@ const App = () => {
           {/* 공통 레이아웃 포함 */}
           <Route element={<Layout />}>
             <Route path="/" element={<Main />}></Route>
-            <Route path="/home" element={<Home />}></Route>
-            <Route path="/TabMenu" element={<TabMenu />}></Route>
+            <Route path="/ToggleClass" element={<ToggleClass />}></Route>
+            <Route path="/HoverClass" element={<HoverClass />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

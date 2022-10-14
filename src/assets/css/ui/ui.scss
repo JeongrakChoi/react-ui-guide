@@ -1,0 +1,16 @@
+/* Toggle Class */
+.toggleButton{
+    position:relative;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background:#eee;
+    text-align:center;
+    line-height:100px;
+    cursor:pointer;
+    user-select:none;
+
+    &.on{
+        background:#666;
+    }
+}
