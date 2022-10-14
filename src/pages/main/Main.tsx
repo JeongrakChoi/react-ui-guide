@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import $ from 'jquery';
 
-import Nav from '../../components/include/Nav';
 
 const Main = () => {
   const navigate = useNavigate();
@@ -16,7 +15,8 @@ const Main = () => {
 
   return (
     <div className="uiBox">
-      @ React UI GUIDE
+      @ React UI GUIDE <br/>
+      개인 공부용
     </div>
   );
 };
