@@ -8,12 +8,14 @@ const BrowserResize = () => {
     const resizingHandler = () => {
         if (window.innerWidth <= 1280) {
             setisMobile(true);
+            console.log(true);
         } else {
             setisMobile(false);
+            console.log(false);
         }
     };
 
-    // 우선 맨 처음 800이하면 모바일 처리
+    // 첫 렌더링시 800이하면 true 처리
     useEffect(() => {
         if (window.innerWidth <= 1280) {
             setisMobile(true);
@@ -31,7 +33,8 @@ const BrowserResize = () => {
             
             <div className={`toggleButton ${isMobile ? 'on': ''}`}>
                 Browser Resize <br/>
-                1280 &gt; on
+                1280 &gt; on <br/>
+                1280 &lt; off
             </div>
 
         </div>
