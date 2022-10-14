@@ -1,7 +1,7 @@
 # react-ui-guide
 
 React 환경 정적인 UI 페이지 활용 및 개인 공부용  
-(https://jeongrakchoi.github.io/react-ui-guide)
+https://jeongrakchoi.github.io/react-ui-guide
 
 ## 터미널
 
