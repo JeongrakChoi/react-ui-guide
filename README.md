@@ -10,8 +10,8 @@ React 환경 정적인 UI 페이지에서 활용 및 개인 공부용
 > npm start
 
 빌드
-> npm build
+> npm run build
 
 gh-pages 배포
-> npm deploy
+> npm run deploy
 ```
