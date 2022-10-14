@@ -1,6 +1,6 @@
 .App{
     position:relative;
-    max-width:1280px;
+    max-width:1080px;
     margin:0 auto;
 }
 
@@ -12,4 +12,5 @@
     width:calc(100% - 200px);
     box-sizing:border-box;
     padding:25px;
+    min-height:300px;
 }
