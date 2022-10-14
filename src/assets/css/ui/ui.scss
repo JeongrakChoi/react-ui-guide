@@ -14,3 +14,37 @@
         background:#666;
     }
 }
+
+/* Slider */
+.sliderWrap{
+    .slick-dots{
+        bottom:20px;
+        li{
+            width:auto;
+            height:auto;
+            margin:0 5px;
+            button{
+                width:10px;
+                height:10px;
+                background:#fff;
+                border-radius:50%;
+            }:before{
+                display:none;
+            }
+        }.slick-active{
+            button{
+                background:#000;
+            }
+        }
+    };
+    
+    .slick-arrow{
+        z-index:10;
+        &.slick-prev{
+            left:10px;
+        }
+        &.slick-next{
+            right:10px;
+        }
+    }
+}
