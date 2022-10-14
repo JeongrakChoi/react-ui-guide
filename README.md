@@ -1,7 +1,12 @@
 # react-ui-guide
 
-React 환경 정적인 UI 페이지 활용 및 개인 공부용  
+React 환경 UI 가이드 페이지 활용 및 개인 공부용  
 https://jeongrakchoi.github.io/react-ui-guide
+
+## 개요
+
+기존 셀렉터를 이용해 직접적인 DOM 조작 및 인터렉션 작업을 한 방식에서  
+상태 변화에 의한 방식으로 전환 및 학습하기 위함.
 
 ## 터미널
 
