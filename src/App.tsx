@@ -8,6 +8,7 @@ import Nav from './components/include/Nav';
 
 import ToggleClass from './components/ui/ToggleClass';
 import HoverClass from './components/ui/HoverClass';
+import SlickSlide from './components/ui/SlickSlide';
 
 import Main from './pages/main/Main';
 
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/" element={<Main />}></Route>
             <Route path="/ToggleClass" element={<ToggleClass />}></Route>
             <Route path="/HoverClass" element={<HoverClass />}></Route>
+            <Route path="/SlickSlide" element={<SlickSlide />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
