@@ -12,6 +12,7 @@ const Nav = () => {
                 <li onClick={()=>navigate("/ToggleClass")}>Toggle Class</li>
                 <li onClick={()=>navigate("/HoverClass")}>Hover Class</li>
                 <li onClick={()=>navigate("/BrowserResize")}>Resize Event</li>
+                <li onClick={()=>navigate("/TabMenu")}>Tab Menu</li>
                 <li onClick={()=>navigate("/SlickSlide")}>Slider (Slick)</li>
             </ul>     
         </nav>

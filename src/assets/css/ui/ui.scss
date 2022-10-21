@@ -16,6 +16,34 @@
     }
 }
 
+/* Tab Menu */
+.tabMenu{
+    position:relative;
+    max-width:300px;
+    display:flex;
+    justify-content:space-between;
+    li{
+        text-align:center;
+        width:30%;
+        height:50px;
+        line-height:50px;
+        background:#eee;
+        cursor:pointer;
+        &.on{
+            background:#666;
+        }
+    }
+}
+
+.tabBox{
+    max-width:300px;
+    height:300px;
+    line-height:300px;
+    text-align:center;
+    background:#eee;
+    margin-top:10px;
+}
+
 /* Slider */
 .sliderWrap{
     .slick-dots{
