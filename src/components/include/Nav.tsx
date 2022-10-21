@@ -14,6 +14,7 @@ const Nav = () => {
                 <li onClick={()=>navigate("/BrowserResize")}>Resize Event</li>
                 <li onClick={()=>navigate("/TabMenu")}>Tab Menu</li>
                 <li onClick={()=>navigate("/SlickSlide")}>Slider (Slick)</li>
+                <li onClick={()=>navigate("/SwiperSlider")}>Slider (Swipe)</li>
             </ul>     
         </nav>
     )

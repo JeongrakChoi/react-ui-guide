@@ -11,6 +11,7 @@ import HoverClass from './components/ui/HoverClass';
 import BrowserResize from './components/ui/BrowserResize'
 import TabMenu from './components/ui/TabMenu'
 import SlickSlide from './components/ui/SlickSlide';
+import SwiperSlider from './components/ui/SwiperSlider';
 
 import Main from './pages/main/Main';
 
@@ -42,6 +43,7 @@ const App = () => {
             <Route path="/BrowserResize" element={<BrowserResize />}></Route>
             <Route path="/TabMenu" element={<TabMenu />}></Route>
             <Route path="/SlickSlide" element={<SlickSlide />}></Route>
+            <Route path="/SwiperSlider" element={<SwiperSlider />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
