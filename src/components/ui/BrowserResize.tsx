@@ -29,7 +29,7 @@ const BrowserResize = () => {
     }, []);
 
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <div className={`toggleButton ${isMobile ? 'on': ''}`}>
                 Browser Resize <br/>

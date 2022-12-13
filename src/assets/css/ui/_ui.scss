@@ -4,15 +4,15 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    width:150px;
-    height:150px;
-    background:#eee;
+    width:200px;
+    height:200px;
+    background:$color-box;
     text-align:center;
     cursor:pointer;
     user-select:none;
 
     &.on{
-        background:#666;
+        background:$color-box-active;
     }
 }
 
@@ -27,10 +27,10 @@
         width:30%;
         height:50px;
         line-height:50px;
-        background:#eee;
+        background:$color-box;
         cursor:pointer;
         &.on{
-            background:#666;
+            background:$color-box-active;
         }
     }
 }
@@ -40,12 +40,13 @@
     height:300px;
     line-height:300px;
     text-align:center;
-    background:#eee;
+    background:$color-box;
     margin-top:10px;
 }
 
 /* Slider */
 .sliderWrap{
+    max-width:830px;
     .slick-dots{
         bottom:20px;
         li{
@@ -55,7 +56,7 @@
             button{
                 width:10px;
                 height:10px;
-                background:#fff;
+                background:$color-white;
                 border-radius:50%;
             }:before{
                 display:none;

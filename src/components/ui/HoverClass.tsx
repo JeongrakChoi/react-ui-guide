@@ -8,7 +8,7 @@ const HoverClass = () => {
     };
 
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <div className={`toggleButton ${isActive ? 'on': ''}`} onMouseEnter={toggle} onMouseLeave={toggle}>
                 Mouser Hover

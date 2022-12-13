@@ -1,0 +1,11 @@
+.container{
+    position:fixed;
+    left:260px;
+    top:60px;
+    bottom:0;
+    width:calc(100% - 260px);
+    box-sizing:border-box;
+    background-color:$color-white;
+    padding:40px;
+    overflow:auto;
+}

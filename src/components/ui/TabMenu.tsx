@@ -5,7 +5,7 @@ const TabMenu = () => {
     const [isTab, setIsTab] = useState("tab1");
 
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <ul className="tabMenu">
                 <li onClick={() => setIsTab('tab1')} className={isTab==="tab1" ? "on" : ""}>Tab1</li>

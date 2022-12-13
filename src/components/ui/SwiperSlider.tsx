@@ -19,7 +19,7 @@ const SwiperSlider = () => {
     }
 
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <div className="sliderWrap">
                 <Swiper {...settings}>

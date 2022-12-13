@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <header className="header">
-            @ React UI GUIDE
+            <h1>@ React UI GUIDE</h1>
         </header>
     )
 }

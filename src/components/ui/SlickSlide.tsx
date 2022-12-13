@@ -16,7 +16,7 @@ const SlickSlide = () => {
         slidesToScroll: 1
     };
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <div className="sliderWrap">
                 <Slider {...settings}>

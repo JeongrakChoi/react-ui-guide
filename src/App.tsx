@@ -3,8 +3,7 @@ import React from 'react';
 import { HashRouter, BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import Nav from './components/include/Nav';
+import Lnb from './components/layout/Lnb';
 
 import ToggleClass from './components/ui/ToggleClass';
 import HoverClass from './components/ui/HoverClass';
@@ -15,19 +14,16 @@ import SwiperSlider from './components/ui/SwiperSlider';
 
 import Main from './pages/main/Main';
 
-import './assets/css/style.scss';
+import './assets/css/_style.scss';
 
 const Layout = () => {
-  return (
-    <>
-      <Header/>
-      <div className="container">
-        <Nav/>
-        <Outlet/>
-      </div>
-      <Footer/>
-    </>
-  );
+    return (
+        <>
+            <Header/>
+            <Lnb/>
+            <Outlet/>
+        </>
+    );
 };
 
 const App = () => {

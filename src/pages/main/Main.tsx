@@ -5,20 +5,19 @@ import $ from 'jquery';
 
 
 const Main = () => {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  // useEffect(()=>{
-  //   $(document).ready(function(){
-  //       alert('hello world');
-  //   });
-  // }, []);
+    // useEffect(()=>{
+    //   $(document).ready(function(){
+    //       alert('hello world');
+    //   });
+    // }, []);
 
-  return (
-    <div className="uiBox">
-      @ React UI GUIDE <br/>
-      개인 공부용
-    </div>
-  );
+    return (
+        <div className="container">
+            @ React Study
+        </div>
+    );
 };
 
 export default Main;

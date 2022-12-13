@@ -1,0 +1,42 @@
+/* theme */
+
+/** font **/
+$color-black : #333;
+$color-black-light : #666;
+$color-white : #fff;
+
+//** bg, line **//
+$color-line : #e7e7eb;
+$color-bg : #666;
+$color-box : #eee;
+$color-box-active : #999;
+
+// ** point ** //
+$color-gray : #adadb4;
+$color-sky : #6196fc;
+$color-purple : #b684fb;
+$color-red : #f04163;
+$color-green : #79d49a;
+
+// ** data ** //
+$color-data-blue : #89c8fc;
+$color-data-orange : #e48d4a;
+$color-data-bluegreen : #7bd5e5;
+$color-data-green : #85dc7e;
+
+
+/* mixin */
+@mixin txtColorChip {
+    &.red{
+        color:$color-red;
+    }
+    &.sky{
+        color:$color-sky;
+    }
+    &.purple{
+        color:$color-purple;
+    }
+    &.green{
+        color:$color-green;
+    }
+}

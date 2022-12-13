@@ -8,7 +8,7 @@ const ToggleClass = () => {
     };
 
     return (
-        <div className="uiBox">
+        <div className="container">
             
             <div className={`toggleButton ${isActive ? 'on': ''}`} onClick={toggle}>
                 Click
