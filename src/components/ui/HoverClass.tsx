@@ -10,7 +10,10 @@ const HoverClass = () => {
     return (
         <div className="container">
             
-            <div className={`toggleButton ${isActive ? 'on': ''}`} onMouseEnter={toggle} onMouseLeave={toggle}>
+            <div 
+                className={`toggleButton ${isActive ? 'on': ''}`} 
+                onMouseEnter={toggle} 
+                onMouseLeave={toggle}>
                 Mouser Hover
             </div>
 

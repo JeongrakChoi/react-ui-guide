@@ -10,7 +10,9 @@ const ToggleClass = () => {
     return (
         <div className="container">
             
-            <div className={`toggleButton ${isActive ? 'on': ''}`} onClick={toggle}>
+            <div 
+                className={`toggleButton ${isActive ? 'on': ''}`} 
+                onClick={toggle}>
                 Click
             </div>
 

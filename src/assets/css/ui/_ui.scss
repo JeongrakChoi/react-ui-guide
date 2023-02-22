@@ -44,6 +44,30 @@
     margin-top:10px;
 }
 
+/* Form */
+input.input{
+    padding:5px;
+    text-align:left;
+    border:1px solid $color-black-light;
+
+    &:disabled{
+        background-color:$color-black-light;
+    }
+}
+
+.btn{
+    padding:10px 20px;
+    border:1px solid $color-black-light;
+    background-color:$color-box;
+}
+
+/* Select */
+.select{
+    padding:10px;
+    border:1px solid $color-black-light;
+    width:150px;
+}
+
 /* Slider */
 .sliderWrap{
     max-width:830px;

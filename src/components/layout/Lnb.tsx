@@ -25,6 +25,12 @@ const Lnb = () => {
                     <NavLink to="/TabMenu">Tab Menu</NavLink>
                 </li>
                 <li>
+                    <NavLink to="/ValueConverter">Value Converter</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/SelectChange">Select Change</NavLink>
+                </li>
+                <li>
                     <NavLink to="/SlickSlide">Slider (Slick)</NavLink>
                 </li>
                 <li>
