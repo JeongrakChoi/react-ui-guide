@@ -1,11 +1,10 @@
 # react-ui-guide
 
 React Hooks 스터디
-https://jeongrakchoi.github.io/react-ui-guide
 
 ## 개요
 
-기존에 직접적으로 조작했던 DOM 스크립트 방식에서  
+직접 DOM에 접근한 스크립트 방식에서  
 상태 변화에 의한 방식으로 전환 및 학습
 
 ## 터미널
