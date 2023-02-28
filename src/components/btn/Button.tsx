@@ -1,4 +1,4 @@
-const Button = (props:any) => {
+const Button = ({text}:any) => {
     return (
        <button 
             type='button'
@@ -9,7 +9,7 @@ const Button = (props:any) => {
                 margin:'5px'
             }}
         >
-            {props.text}
+            {text}
        </button>
     )
 }
