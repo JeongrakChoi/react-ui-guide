@@ -11,6 +11,7 @@ import BrowserResize from './components/ui/BrowserResize';
 import TabMenu from './components/ui/TabMenu';
 import ValueConverter from './components/ui/ValueConverter';
 import SelectChange from './components/ui/SelectChange'
+import ButtonComponents from './components/ui/ButtonComponents'
 import SlickSlide from './components/ui/SlickSlide';
 import SwiperSlider from './components/ui/SwiperSlider';
 
@@ -42,6 +43,7 @@ const App = () => {
             <Route path="/TabMenu" element={<TabMenu />}></Route>
             <Route path="/ValueConverter" element={<ValueConverter />}></Route>
             <Route path="/SelectChange" element={<SelectChange />}></Route>
+            <Route path="/ButtonComponents" element={<ButtonComponents />}></Route>
             <Route path="/SlickSlide" element={<SlickSlide />}></Route>
             <Route path="/SwiperSlider" element={<SwiperSlider />}></Route>
           </Route>

@@ -31,6 +31,9 @@ const Lnb = () => {
                     <NavLink to="/SelectChange">Select Change</NavLink>
                 </li>
                 <li>
+                    <NavLink to="/ButtonComponents">Button Component</NavLink>
+                </li>
+                <li>
                     <NavLink to="/SlickSlide">Slider (Slick)</NavLink>
                 </li>
                 <li>
