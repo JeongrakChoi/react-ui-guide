@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-ui-guide/static/css/main.ea26fcad.css",
-    "main.js": "/react-ui-guide/static/js/main.1032c5db.js",
+    "main.css": "/react-ui-guide/static/css/main.ada1ba0a.css",
+    "main.js": "/react-ui-guide/static/js/main.38e2fa6d.js",
     "static/media/slick.svg": "/react-ui-guide/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/react-ui-guide/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/react-ui-guide/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-ui-guide/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-ui-guide/index.html",
-    "main.ea26fcad.css.map": "/react-ui-guide/static/css/main.ea26fcad.css.map",
-    "main.1032c5db.js.map": "/react-ui-guide/static/js/main.1032c5db.js.map"
+    "main.ada1ba0a.css.map": "/react-ui-guide/static/css/main.ada1ba0a.css.map",
+    "main.38e2fa6d.js.map": "/react-ui-guide/static/js/main.38e2fa6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea26fcad.css",
-    "static/js/main.1032c5db.js"
+    "static/css/main.ada1ba0a.css",
+    "static/js/main.38e2fa6d.js"
   ]
 }
