@@ -1,17 +1,17 @@
-const Button = ({text}:any) => {
-    return (
-       <button 
-            type='button'
-            style={{
-                backgroundColor:'#ddd',
-                border:'1px solid #ddd',
-                padding:'10px 20px',
-                margin:'5px'
-            }}
-        >
-            {text}
-       </button>
-    )
-}
+type ButtonProps = {
+  children?: React.ReactNode;
+  style?: React.CSSProperties;
+  className?: string;
+  disabled?: boolean;
+  onClick?: () => void;
+};
+
+const Button = ({ children, style, className, disabled, onClick }: ButtonProps) => {
+  return (
+    <button type="button" style={style} className={`button ${className}`} disabled={disabled} onClick={onClick}>
+      {children}
+    </button>
+  );
+};
 
 export default Button;
